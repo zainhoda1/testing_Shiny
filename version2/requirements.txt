@@ -1,9 +1,0 @@
-faicons
-shiny
-seaborn
-opencv-python==4.8.1.78
-pyautogui
-seaborn
-matplotlib
-pandas
-plotly.express

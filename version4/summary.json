@@ -1,0 +1,56 @@
+{
+  "total_observations": 344,
+  "missing_values": 11,
+  "complete_cases": 333,
+  "species": {
+    "count": 3,
+    "types": ["Adelie", "Chinstrap", "Gentoo"],
+    "distribution": {
+      "Adelie": 152,
+      "Chinstrap": 68,
+      "Gentoo": 124
+    }
+  },
+  "islands": {
+    "count": 3,
+    "names": ["Biscoe", "Dream", "Torgersen"],
+    "species_by_island": {
+      "Biscoe": ["Adelie", "Gentoo"],
+      "Dream": ["Adelie", "Chinstrap"],
+      "Torgersen": ["Adelie"]
+    }
+  },
+  "variables": {
+    "categorical": ["species", "island", "sex"],
+    "continuous": ["bill_length_mm", "bill_depth_mm", "flipper_length_mm", "body_mass_g"],
+    "temporal": ["year"]
+  },
+  "measurements": {
+    "bill_length_mm": {
+      "min": 32.1,
+      "max": 59.6,
+      "mean": 43.9
+    },
+    "bill_depth_mm": {
+      "min": 13.1,
+      "max": 21.5,
+      "mean": 17.2
+    },
+    "flipper_length_mm": {
+      "min": 172,
+      "max": 231,
+      "mean": 200.9
+    },
+    "body_mass_g": {
+      "min": 2700,
+      "max": 6300,
+      "mean": 4201.8
+    }
+  },
+  "sex_distribution": {
+    "female": 165,
+    "male": 168,
+    "unknown": 11
+  }
+ 
+}
